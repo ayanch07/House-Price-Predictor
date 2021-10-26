@@ -38,7 +38,6 @@ p {
 .navbar {
     padding-bottom: 1rem;
     background-color: #212121;
-    color: #D9CAB3;
 }
 
 .navbar-nav {
@@ -57,12 +56,12 @@ p {
     padding-left: 25;
     padding-top: 1;
     padding-bottom: 1;
+    color: #D9CAB3;;
 }
 
 .nav-link {
     font-size: 1.3rem;
 }
-
 
 
 /* predict button */
@@ -93,11 +92,9 @@ p {
 
 /* Title Image */
 .title-image {
-    width: 35em;
-    margin-right: 0;
-    margin-left: 10;
-    
+    width: 12em;
 }
+
 
 .feature-box {
     text-align: center;
@@ -117,10 +114,6 @@ p {
 }
 
 
-#predict {
-    background-color: #D9CAB3;
-    padding: 9% 8%;
-}
 
 #contact {
     padding: 9% 8%;
@@ -130,4 +123,80 @@ p {
     background-color: #212121;
     padding: 3% 6%;
     text-align: center;
+}
+
+/*********** Predict Section ***************/
+
+
+#predict {
+    background-color: #D9CAB3;
+    padding: 10% 8%;
+}
+
+
+.predict-text {
+    padding-top: 5%;
+    line-height: 2;
+}
+
+
+
+/******************** Card-form from bbbootstrap.com examples 
+Credit = https://bbbootstrap.com/snippets/request-demo-form-validation-12274818
+*************************/
+
+.card {
+    padding: 30px 40px;
+    margin-top: 0;
+    margin-bottom: 6%;
+    box-shadow: 0 6px 12px 0 #212121
+}
+
+.blue-text {
+    color: #00BCD4
+}
+
+.form-control-label {
+    margin-bottom: 0
+}
+
+input,
+textarea,
+button {
+    padding: 8px 15px;
+    border-radius: 5px !important;
+    margin: 5px 0px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    font-size: 18px !important;
+    font-weight: 300
+}
+
+input:focus,
+textarea:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 1px solid #00BCD4;
+    outline-width: 0;
+    font-weight: 400
+}
+
+.btn-block {
+    text-transform: uppercase;
+    font-size: 15px !important;
+    font-weight: 400;
+    height: 43px;
+    cursor: pointer
+}
+
+.btn-block:hover {
+    color: #fff !important
+}
+
+button:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    outline-width: 0
 }
