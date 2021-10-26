@@ -52,6 +52,8 @@
 
 
 	<!--Features-->
+
+
 	<section id="features">
 		<div class="row">
 		<div class="feature-box col-lg-4">
@@ -72,15 +74,49 @@
 
 	</section>
 
+
 	<!-- Predict -->
+
 	<section id="predict">
+
 		<h2>How your dream home would look like?</h2>
-		<p>Fill in the house detaile</p>
-		<form action="" method="post">
+		<p>Fill in the house details</p>
+
+
+		<!-- <form action="" method="post">
 			<label for="area-sq-ft">Area in sq ft</label>
 			<input type="number" id="area-sq-ft"><br>
 			<input type="submit" name = "Submit"><br>
+		</form> -->
+		<form class = "form" action = "http" method = "post">
+			<label for = "city"> City </label>
+			<select for = "city" id = "city"><br>
+				<option value = "Banglore"> Banglore </option> <br>
+				<option value = "Chennai"> Chennai </option> <br>
+				<option value = "Delhi"> Delhi </option> <br>
+				<option value = "Hyderabad"> Hyderabad </option> <br>
+				<option value = "Kolkata"> Kolkata </option> <br>
+				<option value = "Mumbai"> Mumbai </option><br>
+			</select><br>
+				<label for = "area"> Area </label><select for = "area" id = "city">
+				<option value = "coming soon.."> Coming soon... </option>
+			</select><br>
+			<label for = "ar_sqf"> Area in sq ft </label>
+			<input type = "number" id = "ar_sqf" max="9999"><br>
+			<label for = "bedroom"> Number of Bedroom </label>
+			<input type = "number" id = "bedroom" max="6"> <br>
+			<label> Amenities </label><br>
+			<input type="checkbox" id="Gymnasium" name="Gymnasium" value="Bike">
+			<label for="Gymnasium"> Gymnasium </label><br>
+			<input type="checkbox" id="Swimming Pool" name="Swimming Pool" value="Car">
+			<label for="Swimming Pool"> Swimming Pool </label><br>
+			<input type="checkbox" id="Garden" name="Garden" value="Boat">
+			<label for="Garden"> Garden </label><br>
+			<input type="checkbox" id="Jogging Track" name="Jogging Track" value="Boat">
+			<label for="Garden"> Jogging Track </label><br><br>
+			<input type="Submit" value="Submit"><br>
 		</form>
+
 	</section>
 
 	<!-- Contact -->
@@ -90,7 +126,7 @@
 	</section>
 
 	<footer id="footer">
-		<p> &copy; Copyright SnS </p>
+		<p> &copy; Copyright SnS, 2021</p>
 	</footer>
 
 </body>
