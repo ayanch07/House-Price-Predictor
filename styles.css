@@ -28,6 +28,7 @@ h3 {
     color: #212121;
 }
 
+
 p {
     color: #6D9886;
 }
@@ -112,5 +113,21 @@ p {
 }
 
 #features {
-    padding: 8% 8%;
+    padding: 9% 8%;
+}
+
+
+#predict {
+    background-color: #D9CAB3;
+    padding: 9% 8%;
+}
+
+#contact {
+    padding: 9% 8%;
+}
+
+#footer {
+    background-color: #212121;
+    padding: 3% 6%;
+    text-align: center;
 }
